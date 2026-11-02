@@ -1,0 +1,13 @@
+{
+  "name": "sky-hop",
+  "version": "0.3.0",
+  "private": true,
+  "description": "Sky Hop, a small HTML canvas platformer",
+  "type": "module",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test",
+    "sim": "node scripts/sim.js"
+  }
+}

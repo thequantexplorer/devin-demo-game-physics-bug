@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sky Hop</title>
+  <link rel="stylesheet" href="/src/style.css">
+</head>
+<body>
+  <main>
+    <h1>Sky Hop</h1>
+    <canvas id="game" width="960" height="540" aria-label="Sky Hop game"></canvas>
+    <div class="hud">
+      <label>Frame rate
+        <select id="fps">
+          <option value="auto">Auto (display)</option>
+          <option value="30">30 fps</option>
+          <option value="60">60 fps</option>
+          <option value="144">144 fps</option>
+        </select>
+      </label>
+      <span>Last jump: <b id="jump">–</b> px</span>
+      <span>Falls: <b id="falls">0</b></span>
+      <button id="restart" type="button">Restart (R)</button>
+    </div>
+    <p class="help">Move with ← → or A D. Jump with Space, ↑ or W. Drop from the tower onto the cloud, then jump up to the flag.</p>
+  </main>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

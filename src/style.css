@@ -1,0 +1,7 @@
+body { margin: 0; background: #0f172a; color: #e2e8f0; font: 15px/1.4 system-ui, sans-serif; }
+main { max-width: 960px; margin: 24px auto; padding: 0 16px; }
+h1 { font-size: 20px; margin: 0 0 12px; }
+canvas { display: block; width: 100%; height: auto; border-radius: 8px; background: #7dd3fc; }
+.hud { display: flex; gap: 20px; align-items: center; margin-top: 12px; flex-wrap: wrap; }
+.hud select, .hud button { font: inherit; padding: 4px 8px; }
+.help { color: #94a3b8; }
